@@ -1,5 +1,5 @@
 {
-  "name": "simple-logger",
+  "name": "sr-simple-logger",
   "version": "0.0.3",
   "main": "./index.js",
   "scripts": {
