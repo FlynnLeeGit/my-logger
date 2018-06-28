@@ -1,0 +1,22 @@
+{
+  "name": "simple-logger",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "npm t -- --watchAll --coverage"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1"
+  },
+  "jest": {
+    "verbose": true,
+    "watchPathIgnorePatterns": [
+      "<rootDir>/node_modules",
+      "<rootDir>/package.json"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^23.2.0"
+  }
+}
