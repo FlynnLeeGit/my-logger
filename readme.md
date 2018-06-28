@@ -1,9 +1,9 @@
-## simple-logger
+## sr-simple-logger
 
 simplest logger in nodejs
 
 ```js
-const { SimpleLogger } = require('simple-logger')
+const { SimpleLogger } = require('sr-simple-logger')
 const logger = new SimpleLogger({
   scope: 'scope',
   theme: 'blue'
