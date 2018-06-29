@@ -21,5 +21,6 @@ describe('SimpleLogger basic', () => {
     sl.warn(1)
     sl.error(1)
     sl.info(1)
+    sl.success(1)
   })
 })
