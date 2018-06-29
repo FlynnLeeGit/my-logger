@@ -13,4 +13,5 @@ logger.info('info')
 logger.log('log')
 logger.warn('warn')
 logger.error('error')
+logger.success('success')
 ```
